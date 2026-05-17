@@ -347,6 +347,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()"" 
-"def sort_posts_by_id(posts):" 
-"    return sorted(posts, key=lambda p: p.id)" 
+    main()
+
+def sort_posts_by_id(posts):
+    return sorted(posts, key=lambda p: p.id)
+
+def filter_posts_by_likes(posts, min_likes):
+    return [p for p in posts if p.likes >= min_likes]
