@@ -347,4 +347,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()"" 
+"def sort_posts_by_id(posts):" 
+"    return sorted(posts, key=lambda p: p.id)" 
