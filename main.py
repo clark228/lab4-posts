@@ -347,4 +347,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()"" 
+"def filter_posts_by_likes(posts, min_likes):" 
+"    return [p for p in posts if p.likes >= min_likes]" 
